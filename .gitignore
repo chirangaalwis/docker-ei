@@ -25,9 +25,11 @@ rat.txt
 
 # exclude everything
 **/files/*
+**/lib/*
 
 # exception to the rule
-!**/files/.gitkeep
+!**/files/lib/
+!**/lib/.gitkeep
 
 # For integrator-analytics
 
