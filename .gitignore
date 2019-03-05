@@ -19,7 +19,6 @@ hs_err_pid*
 
 # IntelliJ IDEA
 .idea/
-*.iml
 
 rat.txt
 
@@ -28,23 +27,5 @@ rat.txt
 
 # exception to the rule
 !**/files/.gitkeep
-
-# For integrator-analytics
-
-docker-compose/integrator-analytics/mysql/data/*
-!docker-compose/integrator-analytics/mysql/data/.gitkeep
-
-# For integrator-bps-analytics
-
-docker-compose/integrator-bps-analytics/mysql/data/*
-!docker-compose/integrator-bps-analytics/mysql/data/.gitkeep
-
-# For integrator-broker-analytics
-
-docker-compose/integrator-broker-analytics/mysql/data/*
-!docker-compose/integrator-broker-analytics/mysql/data/.gitkeep
-
-# For integrator-broker-bps-analytics
-
-docker-compose/integrator-broker-bps-analytics/mysql/data/*
-!docker-compose/integrator-broker-bps-analytics/mysql/data/.gitkeep
+!**/files/lib/
+!**/files/lib/.gitkeep
